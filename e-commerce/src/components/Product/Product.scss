@@ -1,0 +1,26 @@
+.Product {
+    .price {
+        font-size: medium;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    .hideprice{
+        text-decoration-line: line-through;
+        font-weight: 400;
+    }
+
+    .procard{
+        border-radius: 30px;
+    }
+    .new{
+        b{
+        position:absolute;
+        color: rgb(13, 255, 0);            
+        font-size: x-large;
+        font-weight: 500;
+        margin-top: 5;  
+        background-color: #f36c6c;          
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transform: skewY(-35deg);
+    }
+}
+}

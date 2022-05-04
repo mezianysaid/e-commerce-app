@@ -1,0 +1,42 @@
+.ProductInfo {
+
+    .cardimage{
+        // position: absolute;
+        margin-top: 45px;
+        margin-left: 2em;
+        // box-shadow: 10px 10px 10px  rgb(86, 86, 86);
+        border-radius: 15px;
+    }
+    .cardinfo{              
+        height:auto;
+        .firstBox{
+            background-color: bisque;           
+        }
+        .new{
+            b{
+            position:absolute;
+            color: red;            
+            font-size: x-large;
+            font-weight: 500;
+            margin-top: -2;  
+            background-color: #6495ed;          
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            transform: skewY(-40deg);
+        }
+        i{
+            text-decoration-line:line-through;        
+        }
+    }
+        .secondBox{
+            // background-color: #777777;
+            min-height: 400px;
+            height:auto;      
+        }
+    }   
+    .TopBox{
+        position:relative
+    }
+    .BottomBox{
+        position:relative
+    }   
+}
